@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write 'src/**/*.js'",
     "lint": "eslint 'src/**/*.js'",
-    "lint:fix": "eslint --fix 'src/**/*.js'"
+    "lint:fix": "eslint --fix 'src/**/*.js'",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
